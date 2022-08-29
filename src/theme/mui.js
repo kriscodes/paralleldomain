@@ -91,6 +91,9 @@ const mui = createTheme({
           backgroundColor: colors.secondaryVariant1,
           padding: "8px",
           color: colors.textLight,
+          fontSize: "14px",
+          border: "1px solid rgb(133, 133, 133)",
+          borderRadius: "4px"
         },
       },
     },
@@ -112,6 +115,21 @@ const mui = createTheme({
           },
         },
       },
+    },
+    
+    MuiMenuItem: {
+      styleOverrides: {
+        root:{
+          backgroundColor: "#111a20"
+        },
+      },
+    },
+    MuiList: {
+      styleOverrides: {
+        root:{
+          backgroundColor: "#111a20"
+        }
+      }
     },
   },
 });
